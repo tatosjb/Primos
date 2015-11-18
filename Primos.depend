@@ -1,0 +1,66 @@
+# depslib dependency file v1.0
+1447879452 source:/home/altair/Faculdade/Primos/main.cpp
+	<iostream>
+	<thread>
+	<chrono>
+	<unistd.h>
+	<math.h>
+	<vector>
+	<PrimeProcessor.h>
+	<MyThread.h>
+	<PrimeThreadTerminate.h>
+	<stdio.h>
+	<sys/time.h>
+	<unistd.h>
+
+1447875661 /home/altair/Faculdade/Primos/include/PrimeProcessor.h
+	<ThreadOnTerminate.h>
+	<PrimeData.h>
+	<vector>
+	<atomic>
+	<cmath>
+
+1447879487 source:/home/altair/Faculdade/Primos/src/PrimeProcessor.cpp
+	"PrimeProcessor.h"
+	<exception>
+	<unistd.h>
+
+1446669183 /home/altair/Faculdade/Primos/include/ResearcherOfPrimeNumbers.h
+
+1446666412 source:/home/altair/Faculdade/Primos/src/ResearcherOfPrimeNumbers.cpp
+	<iostream>
+	<pthread.h>
+	<unistd.h>
+	"ResearcherOfPrimeNumbers.h"
+
+1447875849 source:/home/altair/Faculdade/Primos/src/MyThread.cpp
+	"MyThread.h"
+	<thread>
+	<atomic>
+
+1447875597 /home/altair/Faculdade/Primos/include/MyThread.h
+	<thread>
+	<PrimeData.h>
+	<PrimeProcessor.h>
+	<atomic>
+
+1447879523 source:/home/altair/Faculdade/Primos/src/PrimeData.cpp
+	"PrimeData.h"
+
+1447878805 /home/altair/Faculdade/Primos/include/PrimeData.h
+	<mutex>
+	<thread>
+
+1447807735 source:/home/altair/Faculdade/Primos/src/ThreadOnTerminate.cpp
+	"ThreadOnTerminate.h"
+
+1447875935 /home/altair/Faculdade/Primos/include/ThreadOnTerminate.h
+	<PrimeData.h>
+
+1447875942 source:/home/altair/Faculdade/Primos/src/PrimeThreadTerminate.cpp
+	"PrimeThreadTerminate.h"
+
+1447820828 /home/altair/Faculdade/Primos/include/PrimeThreadTerminate.h
+	<ThreadOnTerminate.h>
+	<MyThread.h>
+
